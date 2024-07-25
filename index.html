@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The United States</title>
+    <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+    <div class="navbar">
+      <div class="nav-item">
+        <a href="#explore">Exploration</a>
+      </div>
+      <div class="nav-item">
+        <a href="#eat">Eating Areas</a>
+      </div>
+      <div class="nav-item">
+        <a href="#do">Activties</a>
+      </div>
+      <div class="nav-item">
+  <input type="text" placeholder="Search">
+</div>
+    </div>
+    <div class="header">
+      <h1>
+        The Boundless Adventures of America
+      </h1>
+    </div>
+    <div class="container">
+      <section>
+        <p class="intro">
+          Let's find the areas that fit your interests in America to explore. Answer each of the questions to get a recommended place in America.<br/><br/>
+          Right now, this site is designed so that if you'd like to plan multiple activities per section, you can!
+        </p>
+      </section>
+      <section class="explore" id="explore">
+        <div class="section-header">
+          <h2 class="section-title">Tourist Attractions</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following hobbies is most interesting to you: <b>shopping, sea sighting, or animals?</b>
+          </p>
+          <input id="explore-search" type="text" placeholder="Enter a hobby of interest"/>
+          
+        </div>
+        <div class="recommendation hidden" id="explore-1">
+          <div class="img-container" id="galleria">
+             <img src="https://assets.simpleviewinc.com/simpleview/image/upload/crm/houston/galleria-10_3ccf02cc-b593-6bfc-ba6304174cd9cf68.jpg"/> 
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">The Galleria in Houston, Texas</h3>
+            <p class="recommendation-body">Found in Houston's Uptown Park district, The Galleria is the biggest mall in Texas with more than 400 shops. Shoppers could easily spend a few days exploring this bright and busy mall with designer shops like Jimmy Choo and Louis Vuitton and department stores including Neiman Marcus and Macy's. Find unique items at boutique shops like David Yurman for jewelry and the local menswear designer M. Penner.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="explore-2">
+          <div class="img-container" id="zoo">
+<!--             <img src="http://japan.apike.ca/sites/default/files/jp_img/tokyo_ueno_zoo/tokyo-ueno-zoo-20060826-15-30-57.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Audubon Zoo in New Orleans, Louisiana</h3>
+            <p class="recommendation-body">The Audubon Nature Institute founded a zoo in New Orleans, Louisiana, in 1914. Since then, it has amassed over 2,000 animals and has multiple exhibits. One of the most popular is a swamp exhibit featuring local animals from around the bayou area. At Audubon, visitors can get closer to the animals than many other zoos allow (while staying safe, of course). The Audubon Aquarium is attached to the zoo and available as part of a ticket price. If you have kids, this is a great zoo – it doesn’t take too long to get through everything, and there are several activities and experiences to try! </p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="explore-3">
+          <div class="img-container" id="sea">
+             <img src=""/> 
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">The State of Liberty in New York City</h3>
+            <p class="recommendation-body">Found in Houston's Uptown Park district, The Galleria is the biggest mall in Texas with more than 400 shops. Shoppers could easily spend a few days exploring this bright and busy mall with designer shops like Jimmy Choo and Louis Vuitton and department stores including Neiman Marcus and Macy's. Find unique items at boutique shops like David Yurman for jewelry and the local menswear designer M. Penner.</p>
+          </div>
+        </div>    
+      </section>
+      <section class="eat" id="eat">
+        <div class="section-header">
+          <h2 class="section-title">Delicious Cuisine</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following best describes your dinner food choice: <b>seafood, italian, or mexican?</b>
+          </p>
+          <input id="eat-search" type="text" placeholder="Enter a food choice"/>
+          
+        </div>
+        <div class="recommendation hidden" id="eat-1">
+          <div class="img-container" id="sushi">
+            <img src="https://i0.wp.com/nutritionstarringyou.com/wp-content/uploads/2017/12/sushi-373588_1920-e1515382675773.jpg?fit=600%2C400&ssl=1"/>
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Sushi</h3>
+            <p class="recommendation-body"> Sushi is a popular Japanese dish made from seasoned rice with fish, egg, or vegetables. A sushi roll is shaped inside a thin sheet of seaweed. Sushi comes from a Japanese word meaning "sour rice," and it's the rice that's at the heart of sushi, even though most Americans think of it as raw fish.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="eat-2">
+          <div class="img-container" id="cheesy pasta">
+            <img src="https://assets.myfoodandfamily.com/adaptivemedia/rendition/id_f7fd0b4fd2da915cb24c46ce48d53450786b1e8e/ht_400/wd_600/name_./cheesy-chicken-florentine"/>
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Cheese Florentine Pasta</h3>
+            <p class="recommendation-body"> Cheesy Florentine Pasta with an easy creamy Parmesan sauce, fresh spinach and roasted bell peppers. The perfect weeknight meal that's also great as a cold lunch option! Served as a hot dinner or a cold picnic lunch, this cheesy florentine pasta is perfect for any meal. The creamy parmesan sauce is the star of the show made with mozzarella and parmesan cheese. Spinach and bell peppers keep it fresh and add a bit of color. This whole meal is ready in under 30 minutes, making it great for those busy nights. You can even serve your pasta alongside a tender steak!!</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="eat-3">
+          <div class="img-container" id="tacos">
+            <img src="https://www.freshexpress.com/wp-content/uploads/2021/09/Fish-Tacos-600x400.jpg"/>
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Tacos</h3>
+            <p class="recommendation-body">A $25,000 taco at Grand Velas Los Cabos resort. The taco's foundation is a gold-infused corn tortilla, which is then layered with Kobe beef and lobster. Toppings include black truffle Brie (which costs $100 per ounce) and a dollop of Beluga caviar (which costs $700 an ounce)!</p>
+          </div>
+        </div> 
+      </section>
+      <section class="do" id="do">
+        <div class="section-header">
+          <h2 class="section-title">Thrilling Activities</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following activities soundsmost exciting to you: <b>a escape room, a amusement park, a beach, or a mountain hike?</b>
+          </p>
+          <input id="do-search" type="text" placeholder="Enter an activity"/>
+          
+        </div>
+        <div class="recommendation hidden" id="do-1">
+          <div class="img-container" id="escape">
+             <img src="https://worldofescapes-com.s3.amazonaws.com/uploads/quests/4668/medium/exodus-escape-room-masquerade-manor-1.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit a Escape Room</h3>
+            <p class="recommendation-body">America has a ton of escape rooms. Masquerade is a detective-themed escape game designed and conceptualized by Escape Room Madness.In the recent high-profile crime, the wealthy and famous composer Ludovico Manin has been framed as the prime suspect. You are determined to bring the guilty to justice.Your task is to disguise as a guest, infiltrate into his annual Masquerade Ball, and discover proof that he perpetrated the crime. All you have is a fleeting 60 minutes to accomplish the task. Will you be able to safely hide behind the mask and find evidence? Prove yourself worthy of this high-profile case at Escape Room Madness!</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-2">
+          <div class="img-container" id="park">
+             <img src="https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/59ccd1d1-ff32-37fe-a8e4-9e3c7645e974/600x400.jpg"/> 
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit the California Adventure Park</h3>
+            <p class="recommendation-body">The California Adventure Park is situated in Disneyland and is home to a variety of fun rides and themed areas. Some fantasy worlds you’ll find here include Cars Land and Pixar Pier which are filled with exciting buildings to explore and rides. "</p>
+            <p class="recommendation-body">Visitors while touring the park, can meet some of Disney’s famous characters, like Anna and Elsa from Frozen and the gang from Toy Story. This park puts on a handful of shows each day which range from dance parties to evening firework displays.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-3">
+          <div class="img-container" id="onsen">
+<!--             <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit Hapuna Beach State Park - Big Island, Hawaii</h3>
+            <p class="recommendation-body">Hapuna is a perfect place to swim, snorkel or scuba dive in the crystal clear and clean waters,” says Leatherman. </p>
+          </div>
+        </div> 
+        <div class="recommendation hidden" id="do-4">
+          <div class="img-container" id="mountain">
+<!--             <img src="https://www.japan-guide.com/g18/3036_05.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Climb the Mount Elbert</h3>
+            <p class="recommendation-body">You've probably admired lots of art featuring Mount Elbert. It is the highest summit of the Rocky Mountains, the highest point in the U.S. state of Colorado, and the second-highest summit in the contiguous United States. .</p>
+          </div>
+        </div> 
+      </section>
+    </div>
+     <div class="footer">
+  <h5> Thank you for experiencing boundless adventures with us! if you enjoyed this website, please feel free to share it. </h5>
+      </div>
+          <p>
+            <strong>Created</strong> by <strong><strong>Ryan Eshan & Oluwanifemi Fabunmi</strong></div>
+  <script src="script.js" defer></script>
+</html>
